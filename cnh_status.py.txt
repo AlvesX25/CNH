@@ -1,0 +1,12 @@
+nome =""
+nome = str(input("Digite seu nome: "))
+print ("Olá, tudo bem?",nome)
+
+idade_str = input("Digite sua idade por favor: ")
+idade = int(idade_str)
+if idade >= 18:
+  print("Pode tirar sua habilitação")
+elif idade >= 17:
+  print("Não pode tiriar a sua habilitação, mas pode ir pra auto escola")
+else:
+    print("Não pode tirar a habilitação")
